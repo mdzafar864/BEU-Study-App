@@ -2,7 +2,7 @@
  * service-worker.js — Engg Study
  */
 
-const CACHE_NAME = "engg-study-v1.0.2";
+const CACHE_NAME = "engg-study-v1.0.3";
 
 const APP_SHELL = [
   "./",
