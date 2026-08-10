@@ -468,15 +468,16 @@ button:hover { background: var(--navy-800); transform: scale(0.98); }
 /* ===================== Footer ===================== */
 footer {
   text-align: center;
-  padding: 24px 10px 10px;
-  font-size: 13px;
-  color: var(--ink-soft);
-  animation: footerFadeUp 1s ease forwards;
+  padding: 30px 10px;
+  font-size: 8px;
+  margin-top:10px;
+  animation: footerFadeUp 1.3s ease forwards;
+  width: 100%;
   opacity: 0;
 }
 
 @keyframes footerFadeUp {
-  0% { opacity: 0; transform: translateY(16px); }
+  0% { opacity: 0; transform: translateY(25px); }
   100% { opacity: 1; transform: translateY(0); }
 }
 
