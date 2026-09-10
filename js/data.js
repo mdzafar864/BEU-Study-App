@@ -1,25 +1,3 @@
-/**
- * data.js — Engg Study content source
- * ------------------------------------------------------------
- * Everything the app shows comes from this one file. To add or
- * change content, edit the arrays below — no other file needs
- * to change.
- *
- * Structure:
- *   BRANCHES  -> list of engineering branches shown in dropdown 1
- *   SEMESTERS -> list of semesters shown in dropdown 2 (1-8)
- *   SUBJECTS  -> subjects per branch + semester, each with a
- *                YouTube PLAYLIST id, shown in dropdown 3
- *
- * How to find a playlist id:
- *   Open the playlist on YouTube, e.g.
- *   https://www.youtube.com/playlist?list=PLxCzCOWd7aiEwaANNt3OqJPVIxwp2ebiT
- *   The id is everything after "list=" -> PLxCzCOWd7aiEwaANNt3OqJPVIxwp2ebiT
- *
- * A subject with playlistId "REPLACE_WITH_PLAYLIST_ID" is a
- * placeholder — swap in a real id to make that subject playable.
- * ------------------------------------------------------------ */
-
 const BRANCHES = [
   { id: "cse", name: "Computer Science & Engineering", short: "CSE" },
   { id: "ee", name: "Electrical Engineering", short: "EE" },
