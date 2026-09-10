@@ -22,6 +22,7 @@
 
 const BRANCHES = [
   { id: "cse", name: "Computer Science & Engineering", short: "CSE" },
+  { id: "ee", name: "Electrical Engineering", short: "EE" },
   { id: "ece", name: "Electronics & Communication Engineering", short: "ECE" },
   { id: "me", name: "Mechanical Engineering", short: "ME" },
   { id: "ce", name: "Civil Engineering", short: "CE" },
