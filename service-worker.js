@@ -1,4 +1,4 @@
-const CACHE_NAME = "beu-study-v2.2.1";
+const CACHE_NAME = "beu-study-v2.2.2";
 
 const APP_SHELL = [
   "./",
